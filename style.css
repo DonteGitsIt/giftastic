@@ -1,0 +1,13 @@
+body{
+    background: lightslategray;
+}
+button{
+    margin: 10px;
+    background-color: blanchedalmond;
+    color: teal;
+    border: -5px teal;
+}
+button:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
