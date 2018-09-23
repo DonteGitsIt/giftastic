@@ -9,6 +9,9 @@ and gives them appropriate sources/class/data-types then appends said images to 
 of said button as the search parameter */
 
 $('#submit-button').on('click', function(){
+    if($('#userInput').val()=== ""){
+        return false
+    }
     var newButton = $('<button>')
     newButton.html($('#userInput').val().trim())
     newButton.addClass('animalButton')
