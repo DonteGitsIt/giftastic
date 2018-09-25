@@ -23,7 +23,7 @@ $('#submit-button').on('click', function(){
 
 function runGiphy(){
     var buttonValue = $(this).html();
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q="+buttonValue+"&api_key=s0uzBvZxQEQz029VVqfXFvHFYuMKWBiT&limit=10"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q="+buttonValue+"&api_key=s0uzBvZxQEQz029VVqfXFvHFYuMKWBiT&limit=10"
    
     $.ajax({
         url: queryURL,
